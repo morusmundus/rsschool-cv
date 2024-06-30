@@ -45,6 +45,7 @@ public class Kata {
 ## **Education:** 
 BSUIR, Faculty of Engineering and Economics
 
+---
 
 ## **Languages:**
 
