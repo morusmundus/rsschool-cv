@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+    line-height: 1.5;
+    background-color: #FFF2CC;
+}
+
+header {
+    background-color: #FFD966;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+header .header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: .2rem;
+    color: #58508d;
+}
+
+header img {
+    border-radius: 50%; 
+    border: 5px solid #FCFFE0;
+    height: 110px;
+    margin-right: 50px;
+}
+
+.section-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: stretch;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    background-color: #fff;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #58508d;
+    letter-spacing: .1rem;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+section p{
+    margin-left: 10px;
+}
+
+section .skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+section .one-skill{
+    color: white;
+    background-color: #58508d;
+    height: 45px;
+    margin: 0 10px;
+    padding: 5px 15px 0 15px;
+
+    line-height: 35px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+} 
+
+a {
+    color: #58508d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    display: block;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    margin-top: 10px;
+    overflow-x: auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFD966;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+footer .footer-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+footer h2{
+    margin: 15px 0 0 40px;
+    font-size: 21px;
+}
+
+footer img {
+    margin-bottom: 10px;
+}
+
