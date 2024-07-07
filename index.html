@@ -1,15 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
-<title>Page Title</title>
-
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romanenko Amalia</title>
 </head>
 <body>
+    <header>
+        <div class="header-wrap">
+            <img src="img/photo-for-cv.jpg" alt="photo-for-cv-img" height="100">
+            <h1 class="name-wrapper">Romanenko Amalia</h1>
+        </div>
+    </header>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <main>
+    <div class="section-row">
+        <section id="contact">
+            <h2>Contact information</h2>
+            <ul>
+                <li><strong>Phone:</strong> +375(44)55-49-35-9</li>
+                <li><strong>Email:</strong> <a href="mailto:its.amalia.romanenko@gmail.com">its.amalia.romanenko@gmail.com</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/morusmundus" target="_blank">morusmundus</a></li>
+            </ul>
+        </section>
+        
+        <section id="about">
+            <h2>About myself</h2>
+            <p>Student seeking to learn new things and acquire skills to start a career in front-end development.</p>
+        </section>
+    </div>
+    
+    <div class="section-row">
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="one-skill">HTML, CSS</div>
+                <div class="one-skill">JS</div>
+                <div class="one-skill">ReactJs</div>
+                <div class="one-skill">C, C++</div>
+                <div class="one-skill">Java</div>
+                <div class="one-skill">Git</div>
+                <div class="one-skill">Figma</div>
+            </div>
+        </section>
+        
+        <section id="code-example">
+            <h2>Code example</h2>
+            <div>
+                <p>"String ends with?" from CODEWARS:</p>
+                <code>
+                    public class Kata {<br>
+                    &nbsp;&nbsp;public static boolean solution(String str, String ending) {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;return str.endsWith(ending);<br>
+                    &nbsp;&nbsp;}<br>
+                    }
+                </code>
+            </div>
+        </section>
+    </div>
+    
+    <div class="section-row">
+        <section id="education">
+            <h2>Education</h2>
+            <p>BSUIR, Faculty of Engineering and Economics</p>
+        </section>
+        
+        <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li><b>English</b> - Proficiency</li>
+                <li><b>Russian</b> - Native</li>
+                <li><b>Belarussian, Ukrainian</b> - Upper-Intermediate</li>
+            </ul>
+        </section>
+    </div>
+    </main>
 
+    <footer>
+        <div class="footer-container">
+            <a href="https://github.com/morusmundus" target="_blank">
+                <img src="img/github-icon.svg" alt="github-icon" height="50">
+            </a>
+            <h2>© 2024</h2>
+        </div>
+        <a href="https://rs.school/courses/javascript-ru" target="_blank">
+            <img src="img/rs-school-img.png" alt="rs-school-img" height="50">
+        </a>    
+    </footer>
 
 </body>
-</html> 
+</html>
